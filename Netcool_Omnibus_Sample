@@ -1,0 +1,41 @@
+{
+
+                                                "FirstOccurrence":{{date.now}},
+
+                        "FILTER NAME":"{{random.arrayElement(
+
+                        ["CR0","CR2","CR1"]
+
+                        )}}",
+
+                                                "Node":{{internet.ip}},
+
+                                                "Summary":"This is a test event generated randomly",
+
+                                                "Acknowledged":True,
+
+                                                "Identifier":{{random.uuid}},
+
+                                                "OwnerGID":0,
+
+                                                "Location":"{{random.arrayElement(
+
+                        ["Midwest","East","West","South"]
+
+                        )}}",
+
+                                                "TECHNOLOGY":"{{random.arrayElement(
+
+                        ["SWITCHING","DATA/H-S-I","TRANSPORT","IRVING_SWITCHING","APCC","CTF_ENV"]
+
+                        )}}",
+
+                                                "Severity":"{{random.arrayElement(
+
+                        ["OK","ERROR","WARN"]
+
+                        )}}",
+
+                                                "OwnerUID":{{internet.mac}}
+
+                                }
